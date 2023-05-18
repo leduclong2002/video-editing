@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\server",
+    "\\server\\video-editing-api",
+    "\\server\\video-editing-api\\video-editing-api"
+  ],
+  "SelectedNode": "\\server\\video-editing-api\\video-editing-api\\Startup.cs",
+  "PreviewInSolutionExplorer": false
+}

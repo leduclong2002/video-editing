@@ -13,6 +13,8 @@ import HighlightReview from "../highlight-review";
 import Film from "../Film";
 import HighlightFilter from "../HiglightFilter/highlight-filter";
 import Gallery from "../Gallery";
+import ResetPassword from "../Login/resetpass";
+import UpdateInfo from "../Login/update"
 
 function RoutePath() {
   return (
@@ -28,6 +30,8 @@ function RoutePath() {
       <Route path="/highlight-review" element={<HighlightReview />} />
       <Route path="/highlight" element={<HighlightFilter />} />
       <Route path="/gallery" element={<Gallery />} />
+      <Route path="/resetPassword" element={<ResetPassword />}/>
+      <Route path="/updateInfo" element={<UpdateInfo />} />
     </Routes>
   );
 }

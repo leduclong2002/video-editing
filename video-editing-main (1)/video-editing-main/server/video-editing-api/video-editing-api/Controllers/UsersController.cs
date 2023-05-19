@@ -56,7 +56,7 @@ namespace video_editing_api.Controllers
                     UserName = account.Username,
                     Email = account.Email,
                     FullName = account.FullName,
-                    Role= "1",
+                    Role= "0",
                     
                 };
 

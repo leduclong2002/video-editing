@@ -38,6 +38,7 @@ function ResponsiveDrawer(props) {
         url: "/gallery",
         icon: <CollectionsOutlinedIcon />,
       },
+      
     ];
     return listItem;
   });
@@ -102,9 +103,33 @@ function ResponsiveDrawer(props) {
             </Menu>
           </SidebarContent>
           <SidebarFooter style={{ textAlign: "center" }}>
+            
+            <Grid item xs={12}>
+            <div
+              style={{
+                textAlign: "center",
+                color: "#408DBA",
+                cursor: "pointer",
+              }}
+              onClick={() => navigate("/updateInfo")}
+            >
             <div style={{ fontSize: 16, padding: 1 }}>
               WELCOME {localStorage.getItem("fullName")}
             </div>
+            </div>
+          </Grid>
+          <Grid item xs={12}>
+            <div
+              style={{
+                textAlign: "center",
+                color: "#408DBA",
+                cursor: "pointer",
+              }}
+              onClick={() => navigate("/resetPassword")}
+            >
+            Reset Password
+            </div>
+          </Grid>
             <div>
               <Tooltip key={1} title="Logout" placement="right">
                 <LogoutIcon sx={iconCollapsed} onClick={handleLogout} />

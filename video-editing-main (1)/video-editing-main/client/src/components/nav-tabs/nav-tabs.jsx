@@ -118,18 +118,7 @@ function ResponsiveDrawer(props) {
             </div>
             </div>
           </Grid>
-          <Grid item xs={12}>
-            <div
-              style={{
-                textAlign: "center",
-                color: "#408DBA",
-                cursor: "pointer",
-              }}
-              onClick={() => navigate("/resetPassword")}
-            >
-            Reset Password
-            </div>
-          </Grid>
+          
             <div>
               <Tooltip key={1} title="Logout" placement="right">
                 <LogoutIcon sx={iconCollapsed} onClick={handleLogout} />
